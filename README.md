@@ -34,7 +34,6 @@ Results are saved as structured CSV files, suitable for downstream analysis and 
 ### Software
 1. **Python 3.8+**: Required for running the scripts.
 2. **`mlst` Tool**: A command-line tool for performing MLST.
-   - Install via your package manager or [PubMLST](https://github.com/tseemann/mlst).
 
 ### Python Libraries
 Install the required Python libraries using:
@@ -65,7 +64,7 @@ The scripts will output:
 1. Clone the repository:
    ```bash
    git clone https://github.com/sananooor/mlst-py.git
-   cd mlst-analysis
+   cd mlst-py
    ```
 
 2. Install Python dependencies:
