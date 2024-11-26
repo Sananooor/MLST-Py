@@ -9,7 +9,7 @@ This repository provides a pipeline for automating **Multi-Locus Sequence Typing
 
 Results are saved as structured CSV files, suitable for downstream analysis and reporting.
 
----
+
 
 ## Features
 
@@ -27,7 +27,7 @@ Results are saved as structured CSV files, suitable for downstream analysis and 
 - **Error Handling**:
   - Logs errors and unsuccessful runs for better debugging.
 
----
+
 
 ## Prerequisites
 
@@ -42,7 +42,7 @@ Install the required Python libraries using:
 pip install pandas
 ```
 
----
+
 
 ## File Structure
 
@@ -58,7 +58,7 @@ The scripts will output:
 - `mlst_results.csv`: MLST results containing file name, scheme, and sequence type.
 - `mlst_gene_st_results.csv`: Gene-based results with allele profiles for individual genes.
 
----
+
 
 ## Installation
 
@@ -75,7 +75,7 @@ The scripts will output:
 
 3. Ensure the `mlst` tool is installed and accessible in your system PATH.
 
----
+
 
 ## Usage
 
@@ -121,7 +121,7 @@ python run_gene_typing.py
 - The pipeline assumes the presence of `.fna` files in the `input/` folder.
 - For large datasets, consider optimizing the pipeline with parallel execution using Python's `multiprocessing` or `concurrent.futures`.
 
----
+
 
 ## Troubleshooting
 
@@ -135,11 +135,6 @@ python run_gene_typing.py
 
 ---
 
-## Contributing
-
-Contributions are welcome! Please submit a pull request or file an issue for bug reports or feature requests.
-
----
 
 ## License
 
