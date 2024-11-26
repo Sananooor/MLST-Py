@@ -64,7 +64,7 @@ The scripts will output:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/mlst-analysis.git
+   git clone https://github.com/sananooor/mlst-analysis.git
    cd mlst-analysis
    ```
 
